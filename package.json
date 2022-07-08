@@ -1,34 +1,26 @@
 {
-  "name": "",
+  "name": "second_terminal_test_esmodule",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "license": "AGPL-version-3.0",
-  "private": false,
-  "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
+  "main": "countAllFromTown.js",
+  "directories": {
+    "test": "test"
   },
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": ""
+  "dependencies": {
+    "mocha": "^10.0.0"
   },
-  "bugs": "",
-  "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
-  "contributors": [],
+  "devDependencies": {},
   "scripts": {
-    "dev": "",
     "test": "mocha"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^10.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agnobayiS/first_terminal_test_ESModule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agnobayiS/first_terminal_test_ESModule/issues"
+  },
+  "homepage": "https://github.com/agnobayiS/first_terminal_test_ESModule#readme"
 }
